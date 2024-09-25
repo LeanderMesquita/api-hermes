@@ -1,4 +1,4 @@
-package com.llm.hermes.entity;
+package com.llm.hermes.core.entity;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

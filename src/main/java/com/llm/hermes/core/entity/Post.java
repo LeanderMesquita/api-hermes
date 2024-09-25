@@ -1,7 +1,7 @@
-package com.llm.hermes.entity;
+package com.llm.hermes.core.entity;
 
-import com.llm.hermes.dto.AuthorDTO;
-import com.llm.hermes.dto.CommentDTO;
+import com.llm.hermes.core.dto.AuthorDTO;
+import com.llm.hermes.core.dto.CommentDTO;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;

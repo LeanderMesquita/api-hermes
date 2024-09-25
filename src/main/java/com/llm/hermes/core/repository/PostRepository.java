@@ -1,6 +1,6 @@
-package com.llm.hermes.repository;
+package com.llm.hermes.core.repository;
 
-import com.llm.hermes.entity.Post;
+import com.llm.hermes.core.entity.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;

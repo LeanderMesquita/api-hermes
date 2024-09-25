@@ -1,4 +1,4 @@
-package com.llm.hermes.exception;
+package com.llm.hermes.core.exception;
 
 public class ObjectNotFoundException extends RuntimeException{
     public ObjectNotFoundException(String msg){

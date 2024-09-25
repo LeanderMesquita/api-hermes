@@ -1,10 +1,10 @@
-package com.llm.hermes.service;
+package com.llm.hermes.core.service;
 
 
-import com.llm.hermes.dto.UserDTO;
-import com.llm.hermes.entity.User;
-import com.llm.hermes.exception.ObjectNotFoundException;
-import com.llm.hermes.repository.UserRepository;
+import com.llm.hermes.core.dto.UserDTO;
+import com.llm.hermes.core.entity.User;
+import com.llm.hermes.core.exception.ObjectNotFoundException;
+import com.llm.hermes.core.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

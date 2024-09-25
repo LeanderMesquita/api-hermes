@@ -1,6 +1,4 @@
-package com.llm.hermes.dto;
-
-
+package com.llm.hermes.core.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,11 +7,12 @@ import lombok.Setter;
 
 import java.io.Serializable;
 
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
-public class AuthorDTO implements Serializable {
+public class UserDTO implements Serializable {
     private String id;
     private String name;
+    private String email;
 }
